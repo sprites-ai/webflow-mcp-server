@@ -1,0 +1,27 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "ai.sprites/webflow",
+  "title": "Webflow by Sprites",
+  "description": "Webflow for AI agents: researched CMS posts, page metadata and copy edits, each approved.",
+  "version": "1.0.0",
+  "websiteUrl": "https://www.sprites.ai/mcp/webflow",
+  "repository": {
+    "url": "https://github.com/sprites-ai/webflow-mcp-server",
+    "source": "github"
+  },
+  "icons": [
+    {
+      "src": "https://mcp.sprites.ai/icon.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "256x256"
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.sprites.ai/mcp"
+    }
+  ]
+}
